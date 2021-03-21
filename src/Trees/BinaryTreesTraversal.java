@@ -1,3 +1,8 @@
+package Trees;
+
+
+
+
 import java.util.*;
 
 public class BinaryTreesTraversal {
@@ -71,7 +76,7 @@ public class BinaryTreesTraversal {
      * @param root
      * @param <T>
      *
-     * Left -> Node -> right
+     * Left -> Trees.Node -> right
      *
      * Then Left Subtree Is processed first & All nodes
      * * A node is processed after Left Subtree
@@ -117,7 +122,7 @@ public class BinaryTreesTraversal {
      * @param root
      * @param <T>
      *
-     * Left -> Node -> right
+     * Left -> Trees.Node -> right
      *
      * Then Left Subtree Is processed first & All nodes
      * * A node is processed after Left Subtree

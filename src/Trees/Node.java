@@ -1,3 +1,5 @@
+package Trees;
+
 public class Node<T> {
     private Node<T> leftChild;
     private Node<T> rightChild;

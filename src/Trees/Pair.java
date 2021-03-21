@@ -1,3 +1,5 @@
+package Trees;
+
 public class Pair<K,V> {
 
     private K key;
@@ -26,7 +28,7 @@ public class Pair<K,V> {
 
     @Override
     public String toString() {
-        return "Pair{" +
+        return "Trees.Pair{" +
                 "key=" + key +
                 ", value=" + value +
                 '}';
