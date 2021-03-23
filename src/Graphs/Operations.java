@@ -157,8 +157,8 @@ public class Operations {
 
     public static void main(String[] args){
         adjencencyMatricGraph();
-       // adjencencyListGraph();
-       // adjencencySetGraph();
+        adjencencyListGraph();
+        adjencencySetGraph();
 
     }
 }
