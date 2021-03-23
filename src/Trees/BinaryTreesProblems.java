@@ -19,17 +19,12 @@ public class BinaryTreesProblems {
         }
 
         if(root.getLeftChild() == null && root.getRightChild() == null){
-            //System.out.println(root+ "maxDepth: "+0);
             return 0;
         }
 
         int leftMaxDepth = maxDepthOfTree(root.getLeftChild());
         int rightMaxDepth = maxDepthOfTree(root.getRightChild());
         int maxDepth = 1+ Math.max(leftMaxDepth,rightMaxDepth);
-//        System.out.println(root+
-//                " left MaxDepth "+ leftMaxDepth+
-//                " right MaxDepth "+rightMaxDepth+
-//                " current MaxDepth "+maxDepth);
 
         return maxDepth;
     }
